@@ -10,16 +10,43 @@
 	<title>Home</title>
 </head>
 <body class="background-image">
-  <div class="container container-flex">
-		<form class="form-horizontal">
-		  <div class="form-group">
-		    <label for="inputDistrito" class="col-sm-2 control-label">Escriba su distrito</label>
-		    <div class="col-sm-10">
-		      <input type="text" class="form-control" id="inputDistrito" placeholder="Esquiba aquí">
-		    </div>
-		  </div>
-		</form>
-	</div>
+  <header>
+	  <nav class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="container-fluid">
+			  <div class="row">
+				  <div class="navbar-header">
+				  <!---AGREGANDO MENU HAMBURGUESA DISPONIBLE SOLO PARA VERSION MOVIL--->
+				    <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" >
+						  <span class="sr-only">MENU</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						 </button>
+							 <!---AGREGANDO TITULO FOOD APP--->
+							 <h2 class="color-title"><strong>Food Map</strong></h2>
+						 </div>
+						 <!---AGREGANDO ITEMS DISPONIBLE PARA VERSION DESKTOP Y EN VERSION MOVIL DENTRO DEL MENU HAMBURGUESA--->
+						 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							 <ul class="nav navbar-nav navbar-right">
+								 <li><a href="#">Busquedas guardadas</a></li>
+							 </ul>
+						 </div>
+					 </div>
+				 </div>
+			 </nav>
+		 </header>
+		 <main>
+		 	<div class="container">
+				<div class="row">
+					<div class="col-xs-12 img-hero">
+
+					</div>
+
+				</div>
+
+		 	</div>
+		 </main>
+
 	<!---ENLAZANDO ARCHIVOS JS-->
 	<script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
 	<script src="../js/home.js"></script>

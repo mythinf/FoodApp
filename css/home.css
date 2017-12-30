@@ -5,50 +5,50 @@ body{
   background: #000000;
 }
 .color-title{
+  color: #ffa500;
+  font-family: 'Alex Brush', cursive;
+}
+.seccion-hero{
+  margin-top: 60px;
+  height: 50vh;
+}
+.white{
   color: #ffff;
 }
 .img-hero{
   background-image: url(../assets/img/hero.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
-.container-flex{
+.main-input{
+  background: #000000;
+  color: #ffa500;
+}
+.container-flex-hero{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 25vh;
-  margin-top: 50px;
+}
+.container-flex-items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .box-items{
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.background-image1{
- background-image: url(../assets/img/img1.jpg);
- background-position: center;
- background-size: contain;
- background-repeat: no-repeat;
- height: 100px;
- width: 100px;
- border: 1px solid red;
+.item-food{
+  margin: 10px 5px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffa500;
 }
-.background-image2{
- background-image: url(../assets/img/img2.jpg);
- background-position: center;
- background-size: contain;
- background-repeat: no-repeat;
- height: 100px;
- width: 100px;
- border: 1px solid red;
-}
-.background-image3{
- background-image: url(../assets/img/img3.jpg);
- background-position: center;
- background-size: contain;
- background-repeat: no-repeat;
- height: 100px;
- width: 100px;
- border: 1px solid red;
+.item-food:active{
+  background: #ffff;
 }

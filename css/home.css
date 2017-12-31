@@ -3,10 +3,11 @@ body{
   padding: 0;
   margin: 0;
   background: #000000;
+  font-family: 'Bad Script', cursive;
 }
 .color-title{
   color: #ffa500;
-  font-family: 'Alex Brush', cursive;
+  font-family: 'Lobster', cursive;
 }
 .seccion-hero{
   margin-top: 60px;
@@ -40,15 +41,6 @@ body{
   justify-content: space-around;
   align-items: center;
 }
-.item-food{
-  margin: 10px 5px;
-  width: 150px;
-  height: 150px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #ffa500;
-}
-.item-food:active{
-  background: #ffff;
+.option-food{
+border: 2px solid #ffa500;
 }

@@ -1,6 +1,7 @@
 $(document).ready(function() {
   var placeInput = $('input');
-  placeInput.keypress(function(){
+  //  FUNCION QUE RECONOCE EL DISTRITO QUE DIGITE EL USUARIO
+  placeInput.keypress(function() {
     console.log(placeInput.val().toUpperCase());
-  })
+  });
 });

@@ -36,6 +36,9 @@ body{
   justify-content: space-between;
   align-items: center;
 }
+a{
+  text-decoration: none;
+}
 .box-items{
   display: flex;
   justify-content: space-around;

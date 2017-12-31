@@ -46,3 +46,9 @@ body{
 .options-food{
 background: #ffa500;
 }
+.red{
+  background: #DC143C;
+  color: #000000 !important;
+  text-align: center;
+  font-size: 20px;
+}

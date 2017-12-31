@@ -60,20 +60,38 @@
 				<a class="list-group-item active background-black border-none">
 			    <h3>Elija una opción</h3>
 			  </a>
-		    <a href="#topModal" data-toggle="modal" class="list-group-item options-food">Los más top</a>
-			  <a href="#cevichModal" data-toggle="modal" class="list-group-item options-food">Cevicherías</a>
-			  <a href="#criollModal" data-toggle="modal" class="list-group-item options-food">Criollos</a>
-			  <a href="#econModal" data-toggle="modal" class="list-group-item options-food">Econónicos</a>
-				<a href="#fusionModal" data-toggle="modal" class="list-group-item options-food">Fusión</a>
-			  <a href="#carnesModal" data-toggle="modal" class="list-group-item options-food">Carnes y Parrillas</a>
-	    </div>
-			<!---AGREGANDO VENTANA MODAL PARA CADA UNA DE LAS OPCIONES DE COMIDAS--->
-			<div class="modal fade" id=topModal tabindex="-1" role="dialog"></div>
-			<div class="modal fade" id=cevichModal tabindex="-1" role="dialog"></div>
-			<div class="modal fade" id=criollModal tabindex="-1" role="dialog"></div>
-			<div class="modal fade" id=econModal tabindex="-1" role="dialog"></div>
-			<div class="modal fade" id=fusionModal tabindex="-1" role="dialog"></div>
-			<div class="modal fade" id=carnesModal tabindex="-1" role="dialog"></div>
+		    <a role="button" href="#topCollapse" data-toggle="collapse" class="list-group-item options-food" aria-expanded="false" aria-controls="collapseExample">Los más top</a>
+				<div class="collapse" id="topCollapse">
+					<div class="well" id="foodTop">
+					</div>
+				</div>
+				<a href="#cevichCollapse" data-toggle="collapse" class="list-group-item options-food" aria-expanded="false" aria-controls="collapseExample">Cevicherías</a>
+				<div class="collapse" id="cevichCollapse">
+					<div class="well" id="foodCevich">
+					</div>
+				</div>
+				<a href="#criollCollapse" data-toggle="collapse" class="list-group-item options-food" aria-expanded="false" aria-controls="collapseExample">Criollos</a>
+				<div class="collapse" id="criollCollapse">
+					<div class="well" id="foodCriolla">
+					</div>
+				</div>
+			  <a href="#econCollapse" data-toggle="collapse" class="list-group-item options-food" aria-expanded="false" aria-controls="collapseExample">Econónicos</a>
+				<div class="collapse" id="econCollapse">
+					<div class="well" id="foodEconom">
+					</div>
+				</div>
+				<a href="#fusionCollapse" data-toggle="collapse" class="list-group-item options-food" aria-expanded="false" aria-controls="collapseExample">Fusión</a>
+				<div class="collapse" id="fusionCollapse">
+					<div class="well" id="food Fusion">
+					</div>
+				</div>
+				<a href="#carnesCollapse" data-toggle="collapse" class="list-group-item options-food" aria-expanded="false" aria-controls="collapseExample">Carnes y Parrillas</a>
+				<div class="collapse" id="carnesCollapse">
+					<div class="well" id="foodCarn">
+					</div>
+				</div>
+			</div>
+		
 		 </main>
 	<!---ENLAZANDO ARCHIVOS JS-->
 	<script src="../vendors/jquery/jquery-3.2.1.min.js"></script>

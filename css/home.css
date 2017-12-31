@@ -36,14 +36,13 @@ body{
   justify-content: space-between;
   align-items: center;
 }
-a{
-  text-decoration: none;
+.background-black{
+  background: #262626 !important;
+  color:  #ffa500 !important;
 }
-.box-items{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.border-none{
+  border: none  !important;
 }
-.option-food{
-border: 2px solid #ffa500;
+.options-food{
+background: #ffa500;
 }

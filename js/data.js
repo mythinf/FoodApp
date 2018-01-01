@@ -4,83 +4,27 @@ var zonas = [
   'CENTRO',
   'SUR',
 ];
-// RESTAURANTES-IMG TOP NORTE-CENTRO-SUR
-var topNorte = [
-  '<img src="../assets/img/deli-bakery.jpg" class="img-responsive img-thumbnail" alt="i">',
-  '<img src="../assets/img/la-quinta.jpg" class="img-responsive img-thumbnail" alt="i">'
-];
-var topCentro = [
-  '<img src="../assets/img/puerto-norte.jpg" class="img-responsive img-thumbnail" alt="i">',
-  '<img src="../assets/img/san-martin.jpg" class="img-responsive img-thumbnail" alt="i">',
-  '<img src="../assets/img/chifa-joyLao.jpg" class="img-responsive img-thumbnail" alt="i">',
-];
-var topSur = [
-  '<img src="../assets/img/limon-sal.jpg" class="img-responsive img-thumbnail" alt="i">',
-];
 // RESTAURANTES-IMG CEVICHEIAS NORTE-CENTRO-SUR
-var cevicheriaNorte = [
-  '<img src="../assets/img/deli-bakery.jpg" class="img-responsive img-thumbnail" alt="i">',
-  '<img src="../assets/img/la-quinta.jpg" class="img-responsive img-thumbnail" alt="i">'
-];
-var cevicheriaCentro = [
-  '<img src="../assets/img/deli-bakery.jpg" class="img-responsive img-thumbnail" alt="i">',
-  '<img src="../assets/img/la-quinta.jpg" class="img-responsive img-thumbnail" alt="i">'
-];
-var cevicheriaSur = [
-  '<img src="../assets/img/deli-bakery.jpg" class="img-responsive img-thumbnail" alt="i">',
-  '<img src="../assets/img/la-quinta.jpg" class="img-responsive img-thumbnail" alt="i">'
+var cevicherias = [
+  '<img src="../assets/img/cv-nor1.jpg" class="img-responsive img-thumbnail" alt="i">',
+  '<img src="../assets/img/cv-nor2.jpg" class="img-responsive img-thumbnail" alt="i">',
+  '<img src="../assets/img/cv-nor3.jpg" class="img-responsive img-thumbnail" alt="i">',
+  '<img src="../assets/img/cv-nor4.jpg" class="img-responsive img-thumbnail" alt="i">',
 ];
 // RESTAURANTES-IMG CRIOLLOS NORTE-CENTRO-SUR
-var criolloNorte = [
-  '<img src="../assets/img/deli-bakery.jpg" class="img-responsive img-thumbnail" alt="i">',
-  '<img src="../assets/img/la-quinta.jpg" class="img-responsive img-thumbnail" alt="i">'
-];
-var criolloCentro = [
-  '<img src="../assets/img/deli-bakery.jpg" class="img-responsive img-thumbnail" alt="i">',
-  '<img src="../assets/img/la-quinta.jpg" class="img-responsive img-thumbnail" alt="i">'
-];
-var criolloSur = [
-  '<img src="../assets/img/deli-bakery.jpg" class="img-responsive img-thumbnail" alt="i">',
-  '<img src="../assets/img/la-quinta.jpg" class="img-responsive img-thumbnail" alt="i">'
-];
-// RESTAURANTES-IMG ECONOMICOS NORTE-CENTRO-SUR
-var econNorte = [
-  '<img src="../assets/img/deli-bakery.jpg" class="img-responsive img-thumbnail" alt="i">',
-  '<img src="../assets/img/la-quinta.jpg" class="img-responsive img-thumbnail" alt="i">'
-];
-var econCentro = [
-  '<img src="../assets/img/deli-bakery.jpg" class="img-responsive img-thumbnail" alt="i">',
-  '<img src="../assets/img/la-quinta.jpg" class="img-responsive img-thumbnail" alt="i">'
-];
-var econSur = [
-  '<img src="../assets/img/deli-bakery.jpg" class="img-responsive img-thumbnail" alt="i">',
-  '<img src="../assets/img/la-quinta.jpg" class="img-responsive img-thumbnail" alt="i">'
+var crillos = [
+  '<img src="../assets/img/crioll1.jpg" class="img-responsive img-thumbnail" alt="i">',
+  '<img src="../assets/img/carnes1.png" class="img-responsive img-thumbnail" alt="i">'
 ];
 // RESTAURANTES-IMG FUSION NORTE-CENTRO-SUR
-var fusionNorte = [
-  '<img src="../assets/img/deli-bakery.jpg" class="img-responsive img-thumbnail" alt="i">',
-  '<img src="../assets/img/la-quinta.jpg" class="img-responsive img-thumbnail" alt="i">'
-];
-var fusionCentro = [
-  '<img src="../assets/img/deli-bakery.jpg" class="img-responsive img-thumbnail" alt="i">',
-  '<img src="../assets/img/la-quinta.jpg" class="img-responsive img-thumbnail" alt="i">'
-];
-var fusionSur = [
-  '<img src="../assets/img/deli-bakery.jpg" class="img-responsive img-thumbnail" alt="i">',
-  '<img src="../assets/img/la-quinta.jpg" class="img-responsive img-thumbnail" alt="i">'
+var fusion = [
+  '<img src="../assets/img/fusion1.png" class="img-responsive img-thumbnail" alt="i">',
+  '<img src="../assets/img/fusion2.jpg" class="img-responsive img-thumbnail" alt="i">'
 ];
 // RESTAURANTES-IMG CARNES Y PARRILLAS NORTE-CENTRO-SUR
-var carnespNorte = [
-  '<img src="../assets/img/deli-bakery.jpg" class="img-responsive img-thumbnail" alt="i">',
-  '<img src="../assets/img/la-quinta.jpg" class="img-responsive img-thumbnail" alt="i">'
-];
-var carnespCentro = [
-  '<img src="../assets/img/deli-bakery.jpg" class="img-responsive img-thumbnail" alt="i">',
-  '<img src="../assets/img/la-quinta.jpg" class="img-responsive img-thumbnail" alt="i">'
-];
-var carnespSur = [
-  '<img src="../assets/img/deli-bakery.jpg" class="img-responsive img-thumbnail" alt="i">',
-  '<img src="../assets/img/la-quinta.jpg" class="img-responsive img-thumbnail" alt="i">'
+var carnes = [
+  '<img src="../assets/img/carnes1.png" class="img-responsive img-thumbnail" alt="i">',
+  '<img src="../assets/img/carnes2.jpg" class="img-responsive img-thumbnail" alt="i">'
 ];
 // var data = {
 //   'zonas': [

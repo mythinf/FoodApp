@@ -22,7 +22,11 @@ body{
   background-position: center;
   background-size: cover;
 }
+.image-map{
+  margin-top: 50px;
+}
 .main-input{
+  margin-top: 20px;
   background: #000000;
   color: #ffa500;
 }

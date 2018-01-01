@@ -39,18 +39,22 @@
 			<!---AGREGANDO SECCION HERO--->
 			<section class="seccion-hero img-hero">
 				<div class="container">
-					<div class="row">
-						<div class="col-xs-12">
-							<h1 class="white">¡A dónde vamos!</h1>
-							<br>
+					<h2 class="white"> <strong>En qué zona de Lima se encuentra?</strong> </h2>
+					<div class="row image-map">
+						<div class="col-xs-4">
+							<img src="../assets/img/mapa.jpg" class="img-responsive img-thumbnail" id="img-mapa1" alt="mapa">
+						</div>
+						<div class="col-xs-4">
+							<img src="../assets/img/mapa.jpg" class="img-responsive img-thumbnail" id="img-mapa2" alt="mapa">
+						</div>
+						<div class="col-xs-4">
+							<img src="../assets/img/mapa.jpg" class="img-responsive img-thumbnail" id="img-mapa3" alt="mapa">
 						</div>
 					</div>
 				 <div class="row container-flex-hero">
 					 <div class="col-xs-12">
 						 <!---AGREGANDO INPUT DE BUSQUEDA POR DISTRITO--->
-						 <input type="text" class="form-control main-input" placeholder="Escriba su distrito">
-						 <!---AGREGANDO BOTON DE BUSQUEDA (por defecto DISABLED)--->
-						 <button type="submit" class="btn btn-default pull-left" disabled="disabled" id="searchBtn">Buscar</button>
+						 <input type="text" class="form-control main-input" placeholder="Escriba su zona">
 					 </div>
 				 </div>
 			 </div>
@@ -60,38 +64,44 @@
 				<a class="list-group-item active background-black border-none">
 			    <h3>Elija una opción</h3>
 			  </a>
-		    <a role="button" href="#topCollapse" data-toggle="collapse" class="list-group-item options-food" aria-expanded="false" aria-controls="collapseExample">Los más top</a>
-				<div class="collapse" id="topCollapse">
-					<div class="well" id="foodTop">
+		    <a role="button" href="#topCollapse" data-toggle="collapse"  class="list-group-item options-food" aria-expanded="false" aria-controls="collapseExample">Los más top</a>
+				<div class="collapse" id="topCollapse" >
+					<div class="well red" id="foodTop">
+						<p><strong>No ingresó su zona</strong></p>
 					</div>
 				</div>
-				<a href="#cevichCollapse" data-toggle="collapse" class="list-group-item options-food" aria-expanded="false" aria-controls="collapseExample">Cevicherías</a>
+				<a role="button" href="#cevichCollapse" data-toggle="collapse" class="list-group-item options-food" aria-expanded="false" aria-controls="collapseExample">Cevicherías</a>
 				<div class="collapse" id="cevichCollapse">
-					<div class="well" id="foodCevich">
+					<div class="well red" id="foodCevich">
+						<p><strong>No ingresó su zona</strong></p>
 					</div>
 				</div>
-				<a href="#criollCollapse" data-toggle="collapse" class="list-group-item options-food" aria-expanded="false" aria-controls="collapseExample">Criollos</a>
+				<a role="button" href="#criollCollapse" data-toggle="collapse" class="list-group-item options-food" aria-expanded="false" aria-controls="collapseExample">Criollos</a>
 				<div class="collapse" id="criollCollapse">
-					<div class="well" id="foodCriolla">
+					<div class="well red" id="foodCriolla">
+						<p><strong>No ingresó su zona</strong></p>
 					</div>
 				</div>
-			  <a href="#econCollapse" data-toggle="collapse" class="list-group-item options-food" aria-expanded="false" aria-controls="collapseExample">Econónicos</a>
+			  <a role="button" href="#econCollapse" data-toggle="collapse" class="list-group-item options-food" aria-expanded="false" aria-controls="collapseExample">Econónicos</a>
 				<div class="collapse" id="econCollapse">
-					<div class="well" id="foodEconom">
+					<div class="well red" id="foodEconom">
+						<p><strong>No ingresó su zona</strong></p>
 					</div>
 				</div>
-				<a href="#fusionCollapse" data-toggle="collapse" class="list-group-item options-food" aria-expanded="false" aria-controls="collapseExample">Fusión</a>
+				<a role="button" href="#fusionCollapse" data-toggle="collapse" class="list-group-item options-food" aria-expanded="false" aria-controls="collapseExample">Fusión</a>
 				<div class="collapse" id="fusionCollapse">
-					<div class="well" id="food Fusion">
+					<div class="well red" id="foodFusion">
+						<p><strong>No ingresó su zona</strong></p>
 					</div>
 				</div>
-				<a href="#carnesCollapse" data-toggle="collapse" class="list-group-item options-food" aria-expanded="false" aria-controls="collapseExample">Carnes y Parrillas</a>
-				<div class="collapse" id="carnesCollapse">
-					<div class="well" id="foodCarn">
+				<a role="button" href="#carnesCollapse" data-toggle="collapse" class="list-group-item options-food" aria-expanded="false" aria-controls="collapseExample">Carnes y Parrillas</a>
+				<div class="collapse red" id="carnesCollapse">
+					<div class="well red" id="foodCarn">
+						No ingresó su distrito
 					</div>
 				</div>
 			</div>
-		
+
 		 </main>
 	<!---ENLAZANDO ARCHIVOS JS-->
 	<script src="../vendors/jquery/jquery-3.2.1.min.js"></script>

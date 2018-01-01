@@ -1,25 +1,59 @@
-var ancon =
-   {
-     'top': [
+var data = {
+  'zonas': [
+    {
+      'lima norte': [
         {
-          'nombre': 'Delibakery',
-          'direccion': 'Malecón Pardo, La Rotonda, Ancón ',
-          'precio': 'S/.40'
-        },
-        {
-          'nombre': 'La Quinta',
-          'direccion': 'Jr. Loreto 615, Ancón',
-          'precio': 'S/.45'
+          'top': [
+            {
+              'image': '<img src="../assets/img/deli-bakery.jpg" alt="i">',
+              'nombre': 'Delibakery',
+              'direccion': 'Malecón Pardo, La Rotonda, Ancón ',
+              'precio': 'S/.40',
+            },
+            {
+              'image': '<img src="../assets/img/la-quinta.jpg" alt="i">',
+              'nombre': 'La Quinta',
+              'direccion': 'Jr. Loreto 615, Ancón',
+              'precio': 'S/.45'
+            }
+          ],
+          'cevicheria': [
+            {
+              'nombre': 'Delibakery',
+              'direccion': 'Malecón Pardo, La Rotonda, Ancón ',
+              'precio': 'S/.40'
+            },
+          ]
         }
       ],
-      'cevicheria': [
+      'lima sur': [
         {
-          'nombre': 'Delibakery',
-          'direccion': 'Malecón Pardo, La Rotonda, Ancón ',
-          'precio': 'S/.40'
-        },
+          'top': [
+            {
+              'image': '<img src="../assets/img/deli-bakery.jpg" alt="i">',
+              'nombre': 'Delibakery',
+              'direccion': 'Malecón Pardo, La Rotonda, Ancón ',
+              'precio': 'S/.40',
+            },
+            {
+              'image': '<img src="../assets/img/la-quinta.jpg" alt="i">',
+              'nombre': 'La Quinta',
+              'direccion': 'Jr. Loreto 615, Ancón',
+              'precio': 'S/.45'
+            }
+          ],
+          'cevicheria': [
+            {
+              'nombre': 'Delibakery',
+              'direccion': 'Malecón Pardo, La Rotonda, Ancón ',
+              'precio': 'S/.40'
+            },
+          ]
+        }
       ]
-    };
+    }
+  ]
+};
 
 // var data = [
 //   {'BARRANCO':'restaurants'},
@@ -43,24 +77,8 @@ var ancon =
 //   {'distrito': 'SAN MIGUEL'},
 // ];
 
-var distritos = [
-  'ANCON',
-  'ATE',
-  'CARABAYLLO',
-  'CHORRILLOS',
-  'COMAS',
-  'EL AGUSTINO',
-  'INDEPENCIA',
-  'JESUS MARIA',
-  'LA MOLINA',
-  'BREÑA',
-  'BREÑA',
-  'LA VICTORIA',
-  'LIMA',
-  'LINCE',
-  'LOS OLIVOS',
-  'MAGDALENA DE MAR',
-  'PUEBLO LIBRE',
-  'RIMAC',
-  'SAN MIGUEL',
+var zonas = [
+  'NORTE',
+  'CENTRO',
+  'SUR',
 ];

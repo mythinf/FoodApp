@@ -1,11 +1,11 @@
 body {
   background: #000000;
- font-family: 'Raleway', sans-serif !important;
- color: white;
+  font-family: 'Raleway', sans-serif !important;
+  color: white;
 }
 .container-flex{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100%;
+  height: 100vh;
 }

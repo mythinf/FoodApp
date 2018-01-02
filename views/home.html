@@ -28,20 +28,57 @@
 						<!---AGREGANDO ITEMS DISPONIBLE PARA VERSION DESKTOP Y EN VERSION MOVIL DENTRO DEL MENU HAMBURGUESA--->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-right">
-								<li><a href="#">Busquedas guardadas</a></li>
+								<li class="red"><a data-toggle="modal" data-target="#anunciar">Anuncie aquí</a></li>
 						  </ul>
 						</div>
+					</div>
 			  </div>
 			</div>
 		</nav>
+		<!---AGREGANDO VENTANA MODAL DE ANUNCIO--->
+		<div class="modal fade" id="anunciar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header red">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Publicar restaurant</h4>
+					</div>
+					<div class="modal-body">
+					  <form>
+				      <fieldset>
+					      <div class="form-group">
+						      <label>¿Qué tipo de restaurant?</label>
+									  <select class="form-control">
+										  <option>Cevichería</option>
+										  <option>Comida Criolla</option>
+										  <option>Comida Fusion</option>
+										  <option>Canes</option>
+										  <option>Pollería</option>
+									  </select>
+									  <br>
+									<label>Ingrese nombre de restaurante</label>
+									  <input type="text" class="form-control" placeholder=" ">
+									<label>Ingrese dirección de restaurante</label>
+										<input type="text" class="form-control" placeholder=" ">
+					    </div>
+					 </form>
+					</div>
+					<div class="modal-footer red">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Enviar</button>
+					</div>
+				</div>
+			</div>
+		</div>
 		</header>
 		<main>
 			<!---AGREGANDO SECCION HERO--->
 			<section class="seccion-hero img-hero">
 				<div class="container">
 					<h2 class="white"> <strong>En qué zona de Lima se encuentra?</strong> </h2>
+					<!---AGREGANDO imagenes de mapas--->
 					<div class="row image-map">
-						<div class="col-xs-4 img">
+						<!---norte--->
+						<div class="col-md-4 col-xs-4  img">
 							<h5 class="white">NORTE</h5>
 							<img src="../assets/img/mapa.jpg" class="img-responsive img-thumbnail mapNort" data-toggle="modal" data-target="#zonaNorte" id="map" alt="mapa">
 							<p style="display: none">Escriba Zonas</p>
@@ -57,37 +94,37 @@
 									<div class="list-group">
 										<!---RESTAURANTE 1--->
 										<div class="row list-group-item background-black border-none">
-											<div class="col-xs-8">
+											<div class="col-md-8 col-xs-8">
 												<img src="../assets/img/cv-nor1.jpg" class="img-responsive img-restaurant" alt="la choza nautica">
 											</div>
-											<div class="col-xs-4 text">
+											<div class="col-md-4 col-xs-4 text">
 											<a class="btn btn-default btn-ir" href="https://www.google.com.pe/maps/place/La+Choza+Nautica/@-11.9911754,-77.0821874,17z/data=!3m1!4b1!4m5!3m4!1s0x9105ce676784f3ad:0xc9f87697589d4109!8m2!3d-11.9911754!4d-77.0799987" role="button">Cómo llegar</a>
 											</div>
 										</div>
 										<!---RESTAURANTE 2--->
 										<div class="row list-group-item background-black border-none">
-											<div class="col-xs-8">
+											<div class="col-md-8 col-xs-8">
 												<img src="../assets/img/cv-nor3.jpg" class="img-responsive img-restaurant" alt="la choza nautica">
 											</div>
-											<div class="col-xs-4 text">
+											<div class="col-md-4 col-xs-4 text">
 											<a class="btn btn-default btn-ir" href="https://www.google.com.pe/maps/place/Puerto+Norte/@-12.0425321,-77.0825702,11.67z/data=!4m5!3m4!1s0x9105c8c6b29fc647:0x2929cc44fe536dc7!8m2!3d-12.0576866!4d-77.0385677" role="button">Cómo llegar</a>
 											</div>
 										</div>
 										<!---RESTAURANTE 3--->
 										<div class="row list-group-item background-black border-none">
-											<div class="col-xs-8">
+											<div class="col-md-8 col-xs-8">
 												<img src="../assets/img/crioll1.jpg" class="img-responsive img-restaurant" alt="la choza nautica">
 											</div>
-											<div class="col-xs-4 text">
+											<div class="col-md-4 col-xs-4 text">
 											<a class="btn btn-default btn-ir" href="https://www.google.com.pe/maps/place/Puerto+Norte/@-12.0425321,-77.0825702,11.67z/data=!4m5!3m4!1s0x9105c8c6b29fc647:0x2929cc44fe536dc7!8m2!3d-12.0576866!4d-77.0385677" role="button">Cómo llegar</a>
 											</div>
 										</div>
 										<!---RESTAURANTE 4--->
 										<div class="row list-group-item background-black border-none">
-											<div class="col-xs-8">
+											<div class="col-md-4 col-xs-8">
 												<img src="../assets/img/carnes2.jpg" class="img-responsive img-restaurant" alt="la choza nautica">
 											</div>
-											<div class="col-xs-4 text">
+											<div class="col-md-4 col-xs-4 text">
 											<a class="btn btn-default btn-ir" href="https://www.google.com.pe/maps/search/rustica/@-12.0030668,-77.0622027,15z/data=!3m1!4b1" role="button">Cómo llegar</a>
 											</div>
 										</div>
@@ -99,7 +136,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xs-4">
+						<!---CENTRO--->
+						<div class="col-md-4  col-xs-4">
 							<h5 class="white">CENTRO</h5>
 							<img src="../assets/img/mapa.jpg" class="img-responsive img-thumbnail mapCentro" data-toggle="modal" data-target="#zonaCentro" id="map" alt="mapa">
 							<!---AGREGANDO VENTANA MODAL ZONA CENTRO--->
@@ -149,7 +187,6 @@
 											</div>
 										</div>
 									</div>
-
 									<!---FOOTER MODAL--->
 									<div class="modal-footer">
 										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -158,7 +195,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xs-4">
+						<!---SUR--->
+						<div class="col-md-4 col-xs-4">
 							<h5 class="white">SUR</h5>
 							<img src="../assets/img/mapa.jpg" class="img-responsive img-thumbnail mapSur" data-toggle="modal" data-target="#zonaSur" id="map" alt="mapa">
 							<!---AGREGANDO VENTANA MODAL ZONA SUR--->

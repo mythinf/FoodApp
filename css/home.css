@@ -70,3 +70,14 @@ font-family: 'Lobster', cursive;
 .bgd-red{
   background: red;
 }
+/* VISTA VENTANA MEDIUM SIZE */
+@media (min-width: 992px) {
+  .img-hero{
+    height: 100vh;
+  }
+/* VISTA VENTANA lARGE SIZE */
+@media (min-width: 1200px) {
+  img-hero{
+    height: 100vh;
+  }
+}

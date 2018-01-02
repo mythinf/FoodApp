@@ -8,27 +8,49 @@ $(document).ready(function() {
   var $carnesRestaurants = $('#foodCarn');
   // AGREGANDO EVENTO MOUSE OVER A LAS IMAGENES DE LOS MAPAS-ZONAS
   $('.mapNort').on('mouseover', function() {
-    $(this).toggle( 'slow' );
-    $('p').toggle();
+    $(this).toggle('slow');
   });
   $('.mapNort').on('mouseout', function() {
-    $(this).show('slow' )
+    $(this).show('slow');
+  });
+  $('.mapCentro').on('mouseover', function() {
+    $(this).toggle('slow');
+  });
+  $('.mapCentro').on('mouseout', function() {
+    $(this).show('slow');
+  });
+  $('.mapSur').on('mouseover', function() {
+    $(this).toggle('slow');
+  });
+  $('.mapSur').on('mouseout', function() {
+    $(this).show('slow');
   });
   //  FUNCION QUE RECONOCE EL DISTRITO QUE DIGITE EL USUARIO
-  $('input').keydown(function() {
+  $('input').on('input', function() {
     for (var i in zonas) {
       // CONDICION : PARA BUSQUEDAS PARA ZONA NORTE
       if ($(this).val().toUpperCase() === zonas[0]) {
         $('.mapNort').addClass('bgd-red');
-      // CONDICION : PARA BUSQUEDAS PARA ZONA CENTRO
-      } if ($(this).val().toUpperCase() === zonas[1]) {
-        $('.mapCentro').addClass('bgd-red');
-      // CONDICION : PARA BUSQUEDAS PARA ZONA SUR
-      } if ($(this).val().toUpperCase() === zonas[2]) {
-        $('.mapSur').addClass('bgd-red');
-      // CONDICION : NUEVAS BÚSQUEDAS (SI EL USUARIO BORRA BUSQUEDA)
+      } else {
+        $('.mapNort').removeClass('bgd-red');
       }
-    }
+    };
+    for (var i in zonas) {
+      // CONDICION : PARA BUSQUEDAS PARA ZONA CENTRO
+      if ($(this).val().toUpperCase() === zonas[1]) {
+        $('.mapCentro').addClass('bgd-red');
+      } else {
+        $('.mapCentro').removeClass('bgd-red');
+      }
+    };
+    for (var i in zonas) {
+      // CONDICION : PARA BUSQUEDAS PARA ZONA SUR
+      if ($(this).val().toUpperCase() === zonas[2]) {
+        $('.mapSur').addClass('bgd-red');
+      } else {
+        $('.mapSur').removeClass('bgd-red');
+      }
+    };
   });
   $optionsFood.on('click', function() {
     for (var j in cevicherias) {

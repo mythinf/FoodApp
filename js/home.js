@@ -6,16 +6,28 @@ $(document).ready(function() {
   var $criollosRestaurants = $('#foodCriolla');
   var $fusionRestaurants = $('#foodFusion');
   var $carnesRestaurants = $('#foodCarn');
-  //  FUNCION QUE RECONOCE EL DISTRITO QUE DIGITE EL USUARIO Y ACTIVA EL BOTON DE BUSQUEDA
+  // AGREGANDO EVENTO MOUSE OVER A LAS IMAGENES DE LOS MAPAS-ZONAS
+  $('.mapNort').on('mouseover', function() {
+    $(this).toggle( 'slow' );
+    $('p').toggle();
+  });
+  $('.mapNort').on('mouseout', function() {
+    $(this).show('slow' )
+  });
+  //  FUNCION QUE RECONOCE EL DISTRITO QUE DIGITE EL USUARIO
   $('input').keydown(function() {
     for (var i in zonas) {
       // CONDICION : PARA BUSQUEDAS PARA ZONA NORTE
       if ($(this).val().toUpperCase() === zonas[0]) {
-        $optionsFood.addClass('red');
+        $('.mapNort').addClass('bgd-red');
+      // CONDICION : PARA BUSQUEDAS PARA ZONA CENTRO
+      } if ($(this).val().toUpperCase() === zonas[1]) {
+        $('.mapCentro').addClass('bgd-red');
+      // CONDICION : PARA BUSQUEDAS PARA ZONA SUR
+      } if ($(this).val().toUpperCase() === zonas[2]) {
+        $('.mapSur').addClass('bgd-red');
       // CONDICION : NUEVAS BÚSQUEDAS (SI EL USUARIO BORRA BUSQUEDA)
-      } else if ($(this).val().toUpperCase() === '') {
-        $optionsFood.removeClass('red');
-      };
+      }
     }
   });
   $optionsFood.on('click', function() {

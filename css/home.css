@@ -63,3 +63,10 @@ background: #ffa500;
 background: #ffa500;
 font-family: 'Lobster', cursive;
 }
+#map{
+  border:2px solid #ffa500;
+  padding: 10px;
+}
+.bgd-red{
+  background: red;
+}

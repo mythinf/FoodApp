@@ -30,7 +30,7 @@ $(document).ready(function() {
     for (var i in zonas) {
       // CONDICION : PARA BUSQUEDAS PARA ZONA NORTE
       if ($(this).val().toUpperCase() === zonas[0]) {
-        $('.mapNort').addClass('bgd-red');
+        $('.mapNort').addClass('bgd-red');  
       } else {
         $('.mapNort').removeClass('bgd-red');
       }

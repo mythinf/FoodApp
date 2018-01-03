@@ -10,19 +10,19 @@ $(document).ready(function() {
   $('.mapNort').on('mouseover', function() {
     $(this).toggle('slow');
   });
-  $('.mapNort').on('mouseout', function() {
+  $('.mapNort').on('mouseenter', function() {
     $(this).show('slow');
   });
   $('.mapCentro').on('mouseover', function() {
     $(this).toggle('slow');
   });
-  $('.mapCentro').on('mouseout', function() {
+  $('.mapCentro').on('mouseenter', function() {
     $(this).show('slow');
   });
   $('.mapSur').on('mouseover', function() {
     $(this).toggle('slow');
   });
-  $('.mapSur').on('mouseout', function() {
+  $('.mapSur').on('mouseenter', function() {
     $(this).show('slow');
   });
   //  FUNCION QUE RECONOCE EL DISTRITO QUE DIGITE EL USUARIO
